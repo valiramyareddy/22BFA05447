@@ -1,7 +1,7 @@
-3. Number Guessing Game
-This is a simple number guessing game where the user has to guess a randomly generated number within a given range.
+Explanation:
+Random Number: The rand() function is used to generate a random number between 1 and 100.
+Game Loop: The user is prompted to keep guessing until they guess the correct number, and feedback is provided based on the guess.
 
-Code:
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,7 +32,4 @@ int main() {
 
     return 0;
 }
-Explanation:
-Random Number: The rand() function is used to generate a random number between 1 and 100.
-Game Loop: The user is prompted to keep guessing until they guess the correct number, and feedback is provided based on the guess.
 
